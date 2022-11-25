@@ -35,6 +35,7 @@ button {
   border: none;
   cursor: pointer;
   padding: 15px 25px;
+  outline: none;
 }
 
 p,
@@ -1107,19 +1108,19 @@ footer {
 
 @media only screen and (max-width: 1200px) {
   .ani1 {
-    left: 50px;
+    left: 55px;
   }
 
   .ani2 {
-    left: 0;
+    left: 5;
   }
 
   .ani3 {
-    right: 50px;
+    right: 55px;
   }
 
   .ani4 {
-    right: 0;
+    right: 5;
   }
 
   .rewards {
@@ -1445,10 +1446,19 @@ footer {
     flex-direction: column;
   }
 
+  .winners-ribbon h5 {
+font-size: 20px;
+  }
+
   .banner-top h1,
   .banner-top h1 span {
     text-align: center;
     font-size: 40px;
+  }
+
+  .faq-title {
+    max-width: 400px;
+  margin: auto;
   }
 
   .faq-left-image::before {
