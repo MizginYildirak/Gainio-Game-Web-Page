@@ -1478,4 +1478,8 @@ footer {
   .faq-question {
     gap: 40px;
   }
+
+  .banner-top, .bottom-middle {
+    text-align: center;
+  }
 }
