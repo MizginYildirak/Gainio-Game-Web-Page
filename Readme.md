@@ -34,7 +34,7 @@ I learned how to use animations and key frames in this project.
 
 ## Notes
 
-- You can use HTML,and CSS to complete this project.
+- You can use HTML and CSS to complete this project.
 
 
 ## Author
