@@ -88,8 +88,6 @@ nav {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 #fifth-li {
@@ -129,12 +127,15 @@ nav {
 
 .navbar li {
   position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  cursor: pointer;
 }
 
 .drop-down {
   width: 230px;
   display: none;
-  top: 65px;
+  top: 105px;
   left: -30px;
   background-color: var(--bottom-banner-color);
   list-style: none;
@@ -188,9 +189,9 @@ nav {
   position: absolute;
 }
 
-.navbar li a:hover {
+.navbar li:hover a {
   color: var(--green-color);
-  transition: 0.2s;
+  transition: 0.4s;
 }
 
 .nav-right {
@@ -235,7 +236,10 @@ button:hover {
   flex-direction: column;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
+
+
 
 .ani1 {
   position: absolute;
@@ -470,7 +474,7 @@ h2 {
   justify-content: center;
   margin: auto;
   padding-top: 50px;
-  gap: 30px;
+  gap: 15px;
 }
 
 .row-images img {
@@ -1177,7 +1181,7 @@ footer {
   }
 
   .counter-container {
-    gap: 140px;
+    gap: 100px;
   }
 
   .faq-container {
@@ -1206,7 +1210,8 @@ footer {
 
 @media only screen and (max-width: 992px) {
   nav {
-    padding: 15px 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
   .ani1 {
