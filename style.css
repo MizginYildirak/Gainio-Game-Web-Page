@@ -1397,6 +1397,10 @@ footer {
 }
 
 @media only screen and (max-width: 576px) {
+  nav {
+    padding: 15px 20px;
+  }
+  
   .ani1 {
     width: 50px;
     left: 0;
